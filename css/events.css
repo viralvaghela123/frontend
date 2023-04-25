@@ -1,0 +1,47 @@
+@import url(./style.css);
+
+#title {
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+}
+
+#events {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#first {
+  padding: 20px;
+  text-align: center;
+  border: none;
+}
+
+.venue {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+#col-1{
+    text-align: left;
+}
+
+#col-2{
+    text-align: center;
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+#sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
