@@ -51,7 +51,6 @@ body {
   height: 40rem;
   margin: 0 auto;
   z-index: 8;
-  /* transform: translate(-50%, -50%); */
   transform: translateX(-15%);
   font-weight: 400;
 }
@@ -140,7 +139,7 @@ button:hover {
 }
 
 footer {
-  margin-top: 5vh;
+  margin-top: 8vh;
   padding: 20px;
   background-color: black;
   display: flex;
@@ -152,19 +151,27 @@ footer {
   width: 100%;
 }
 
-.footer-card{
-    margin-inline: 1rem;
+.footer-card {
+  margin-inline: 1rem;
 }
 
-footer a{
-    text-decoration: none;
+footer ul {
+  list-style: none;
 }
 
-.spon-soci{
-    display: flex;
-    flex-direction: column-reverse;
+footer a {
+  color: grey;
+  text-decoration: none;
 }
 
-.fa{
-    margin-inline: 0.3rem;
+footer a:hover {
+  color: white;
+}
+
+.fa {
+  margin-inline: 0.3rem;
+}
+
+.footer-links{
+  color: grey;
 }
