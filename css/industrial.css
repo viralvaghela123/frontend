@@ -96,3 +96,15 @@ main h1{
 main h2{
     font-family: 'Bruno Ace SC', cursive;
 }
+
+footer {
+  margin-top: 8vh;
+  padding: 20px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
