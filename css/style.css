@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Lilita+One&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap');
 
 * {
   margin: 0;
@@ -7,6 +8,7 @@
 }
 
 body {
+  width: 100vw;
   height: 100vh;
   position: relative;
 }
@@ -142,9 +144,9 @@ footer {
   margin-top: 8vh;
   padding: 20px;
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Fjalla One", sans-serif;
   bottom: 0;
   left: 0;
   right: 0;
@@ -172,6 +174,10 @@ footer a:hover {
   margin-inline: 0.3rem;
 }
 
-.footer-links{
+.footer-links {
   color: grey;
+}
+
+.socials{
+  padding-left: 20px;
 }
