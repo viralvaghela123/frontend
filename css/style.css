@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Lilita+One&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
 
 * {
   margin: 0;
@@ -15,16 +15,18 @@ body {
 
 .webName {
   margin-right: 20vw;
+  font-weight: 1000;
   /* font-family: 'Pacifico', cursive; */
   /* font-family: 'Great Vibes', cursive; */
-  font-family: "Kaushan Script", cursive;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .navbar-nav {
-  margin-left: 40vw;
-  font-family: "Fjalla One", sans-serif;
+  margin-left: 30vw;
+  /* font-family: "Fjalla One", sans-serif; */
+  font-family: nobel, sans-serif;
 }
-.nav-item{
+.nav-item {
   margin-left: 2vw;
 }
 
@@ -143,13 +145,14 @@ button:hover {
   transform: scale(1.2);
 }
 
+/* -------------------- FOOTER ------------------- */
+
 footer {
   margin-top: 8vh;
   padding: 20px;
   background-color: black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  font-family: "Fjalla One", sans-serif;
   bottom: 0;
   left: 0;
   right: 0;
@@ -181,6 +184,8 @@ footer a:hover {
   color: grey;
 }
 
-.socials{
-  padding-left: 20px;
+.socials {
+  position: absolute;
+  left: 4vw;
+  bottom: 2vh;
 }
