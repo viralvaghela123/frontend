@@ -127,6 +127,10 @@ button:hover {
   justify-content: space-around;
 }
 
+.ind-item p{
+  text-align: center;
+}
+
 .left-industrial-inner {
   margin: 3rem;
 }
@@ -145,6 +149,13 @@ button:hover {
 .card:hover {
   transform: scale(1.2);
 }
+/* 
+.drone-image-industrial img{
+  height: 320px;
+  width: 530px;
+  box-shadow: 0px 0px 30px 20px rgba(21, 0, 250, 0.1);
+  border-radius: 35px;
+} */
 
 /* -------------------- FOOTER ------------------- */
 
@@ -196,7 +207,15 @@ footer a:hover {
   width: 100%;
 }
 
+.socials .fa{
+    margin-left: 1vw;
+}
+
+.ft-lbl {
+  color: darkgrey;
+}
+
 .industrial{
   background-image: url('./../img/changed_background.jpg');
-  background-position: 40% 120%;
+  background-position: 50% 160%;
 }
