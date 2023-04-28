@@ -126,10 +126,10 @@ footer a {
 footer a:hover {
   color: white;
 }
-/* 
+
 .fa {
   margin-inline: 0.3rem;
-} */
+}
 
 .footer-links {
   color: grey;
@@ -139,7 +139,7 @@ footer a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px 0 30px;
+  padding: 0 50px 0 50px;
   width: 100%;
   background-color: black;
 }
