@@ -74,15 +74,20 @@ body{
 }
 
 .block4{
-    display: inline-flex;
-    justify-content: center;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     margin-top: 10vh;
     width: 70vw;
     position: relative;
     margin-left: 15vw;
-    padding-left: 15px;
+
+}
+
+.block4-1{
+  width: 32rem;
+  height: 18rem;
 }
 
 #getintouch{

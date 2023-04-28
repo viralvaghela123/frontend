@@ -1,17 +1,31 @@
 @import url(./style.css);
 
+/* main{
+  /* background: linear-gradient(to bottom, lightblue, white); */
+  
+/* } */ 
+
 #title {
   font-family: "Fjalla One", sans-serif;
   text-align: center;
 }
 
-#events {
+#event {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Night-Sky-Wallpaper-Desktop.jpg");
+  padding-bottom: 50px;
+  /* background-color: rgb(56, 49, 49); */
+
 }
+/* .img-background{
+  width: 100%;
+  height: 30rem;
+} */
 
 #first {
   padding: 20px;
@@ -45,53 +59,47 @@
     justify-content: center;
     align-items: center;
 }
-/* 
-footer {
-  margin-top: 8vh;
-  padding: 20px;
-  background-color: black;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+.indias-biggest-drone{
+  font-size: 3rem;
+  color: white ;
 }
-
-
-.footer-card {
-  margin-inline: 1rem;
+.indias-biggest-drone1{
+  font-size: 8rem;
+  box-shadow: 0.5rem 0.5rem 1rem 0.5rem gray;
+  border-radius: 4rem;
+  font-family: 'Kanit', sans-serif;
+  color: white ;
 }
-
-footer ul {
-  list-style: none;
+.content{
+  margin-top: 5rem;
+  color: white  ;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  font-size: 1.3rem;
 }
-
-footer a {
-  color: grey;
-  text-decoration: none;
+.para12
+{
+  font-weight: 900;
 }
-
-footer a:hover {
+.join1{
+  margin-top: 2rem;
+}
+.join-a{
+  /* text-decoration: none; */
+  color: red;
+}
+.venue1{
+  background-image: url(https://media.istockphoto.com/id/1412583447/vector/beautiful-starry-sky-background-illustration.jpg?s=612x612&w=0&k=20&c=1-FAYSZUNJLuxO2w45lvI3dk2qONdCWsGzklgNu2wiw=);
+  color: white  ;
+}
+#col-1{
   color: white;
 }
-
-.fa {
-  margin-inline: 0.3rem;
+#col-2{
+  color: white;
 }
-
-.footer-links {
-  color: grey;
+.main123{
+  display: flex;
+  justify-content: space-evenly;
+  
 }
-
-.socials {
-  position: relative;
-  left: 3vw;
-  bottom: 2vh;
-}
-
-#copy {
-  position: relative;
-  right: 3vw;
-  bottom: 2vh;
-} */
