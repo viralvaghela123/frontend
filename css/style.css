@@ -210,3 +210,8 @@ footer a:hover {
 .ft-lbl {
   color: darkgrey;
 }
+
+.industrial{
+  background-image: url('./../img/changed_background.jpg');
+  background-position: 40% 120%;
+}
