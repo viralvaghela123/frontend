@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
 @import url(./style.css);
+
+main{
+    background-image: url('../img/mission-ke-liye.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 230%;
+    padding-top: 10vh;
+}
 
 .mission{
     font-size: 2rem;
     text-align: center;
+    font-family: "Bruno Ace SC", cursive;
 }

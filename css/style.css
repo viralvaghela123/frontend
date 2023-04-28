@@ -207,11 +207,15 @@ footer a:hover {
   width: 100%;
 }
 
+.socials .fa{
+    margin-left: 1vw;
+}
+
 .ft-lbl {
   color: darkgrey;
 }
 
 .industrial{
   background-image: url('./../img/changed_background.jpg');
-  background-position: 40% 120%;
+  background-position: 50% 160%;
 }
