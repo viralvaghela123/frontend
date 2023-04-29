@@ -31,6 +31,16 @@ body {
   margin-left: 2vw;
 }
 
+#get-in-touch{
+  transition: 0.5s;
+}
+
+#get-in-touch:hover{
+  background-color: #ffc107;
+  border: none;
+  color: black;
+}
+
 .carousel-inner {
   height: 60vh;
 }
