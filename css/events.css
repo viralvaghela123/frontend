@@ -82,7 +82,10 @@
   font-weight: 900;
 }
 .join1{
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
+  align-items: center;
 }
 .join-a{
   /* text-decoration: none; */
@@ -102,4 +105,21 @@
   display: flex;
   justify-content: space-evenly;
   
+}
+.heading{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  
+}
+.heading-h2{
+  font-size:3rem;
+}
+.venue3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.venue311{
+  width: 20rem;
 }
