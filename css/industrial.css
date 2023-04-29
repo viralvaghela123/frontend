@@ -1,76 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Lilita+One&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
 /* @import url(./style.css); */
 
 /* 
 body{
     font-family: "Fjalla One", sans-serif;
 } */
-#industry_img{
-    height: 50vh;
-    width: 100vw;
+#industry_img {
+  height: 50vh;
+  width: 100vw;
 }
 
-.block{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    margin-top: 10vh;
-    width: 100vw;
-    
+.block {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 10vh;
+  width: 100vw;
 }
 
-.block p{
-    display: block;
-    width: 70vw;
-    margin-top: 3vh;
+.block p {
+  display: block;
+  width: 70vw;
+  margin-top: 3vh;
 }
 
-.block2{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    margin-top: 10vh;
-    
+.block2 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 10vh;
 }
 
-.block2 h2{
-    position: relative;
-    transform: translateX(15vw);
+.block2 h2 {
+  position: relative;
+  transform: translateX(15vw);
 }
-.contain{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-top: 10vh;
-    width: 75vw;
-    position: relative;
-    left: 15vw;
+.contain {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 10vh;
+  width: 75vw;
+  position: relative;
+  left: 15vw;
+}
+.contain img {
+  height: 35vh;
+  position: relative;
+  top: -1vh;
+  right: 10px;
+}
 
-}
-.contain img{
-    height: 35vh;
-    position: relative;
-    top: -1vh;
-    right: 10px;
-}
-
-.block3{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    margin-top: 10vh;
-    width: 70vw;
-    position: relative;
-    left: 15vw;
+.block3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 10vh;
+  width: 70vw;
+  position: relative;
+  left: 15vw;
 }
 
 .block4{
@@ -90,17 +87,17 @@ body{
   height: 18rem;
 }
 
-#getintouch{
-    position: relative;
-    top: 3vh;
-    left: 47vw;
+#getintouch {
+  position: relative;
+  top: 3vh;
+  left: 47vw;
 }
 
-main h1{
-    font-family: 'Bruno Ace SC', cursive;
+main h1 {
+  font-family: "Bruno Ace SC", cursive;
 }
-main h2{
-    font-family: 'Bruno Ace SC', cursive;
+main h2 {
+  font-family: "Bruno Ace SC", cursive;
 }
 
 footer {
@@ -133,7 +130,7 @@ footer a:hover {
 }
 
 .fa {
-  margin-inline: 0.3rem;
+  margin-left: 1vw;
 }
 
 .footer-links {
@@ -144,11 +141,11 @@ footer a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px 0 50px;
+  padding: 0 50px 20px 50px;
   width: 100%;
   background-color: black;
 }
 
-#socials a{
+#socials a {
   text-decoration: none;
 }
