@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,11 +32,11 @@ body {
   margin-left: 2vw;
 }
 
-#get-in-touch{
+#get-in-touch {
   transition: 0.5s;
 }
 
-#get-in-touch:hover{
+#get-in-touch:hover {
   background-color: #ffc107;
   border: none;
   color: black;
@@ -128,6 +129,12 @@ button:hover {
   width: 100%;
   justify-content: center;
   align-items: center;
+  background-image: url("./../img/d29b5bec682f9f0e608fd63c999609a2.gif");
+  background-position: 130% 290%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: whitesmoke;
+  padding-block-start: 7rem;
 }
 
 .industrial-solutions {
@@ -137,7 +144,7 @@ button:hover {
   justify-content: space-around;
 }
 
-.ind-item p{
+.ind-item p {
   text-align: center;
 }
 
@@ -182,11 +189,8 @@ footer {
 .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
 }
-.foo
-
-.footer-card {
+.foo .footer-card {
   margin-inline: 1rem;
 }
 
@@ -219,29 +223,23 @@ footer a:hover {
   width: 100%;
 }
 
-.socials .fa{
-    margin-left: 1vw;
+.socials .fa {
+  margin-left: 1vw;
 }
 
 .ft-lbl {
   color: darkgrey;
   display: flex;
   margin-left: 2rem;
-
 }
 
-.industrial{
-  background-image: url('./../img/changed_background.jpg');
-  background-position: 50% 160%;
-}
-
-.era{
+.era {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.indias-biggest-drone12{
+.indias-biggest-drone12 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,13 +251,13 @@ footer a:hover {
   padding-bottom: 2rem;
   margin-bottom: 3rem;
 }
-.indias-biggest-drone12 h2{
+.indias-biggest-drone12 h2 {
   font-size: 4rem;
   font-weight: 400;
   font-family: "Bruno Ace SC";
 }
 
-.era-p{
+.era-p {
   font-size: 1.3rem;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -267,7 +265,7 @@ footer a:hover {
   font-family: "Bruno Ace SC";
   font-weight: 200;
 }
-.join-btn{
+.join-btn {
   height: 2.5rem;
   width: 6.5rem;
   border-radius: 0.5rem;
@@ -279,15 +277,21 @@ footer a:hover {
 /* .join-btn:hover{
   transform: translateX(4px );
 } */
-.pulse:hover, 
+.pulse:hover,
 .pulse:focus {
   animation: pulse 1s;
   box-shadow: 0 0 0 0.5em #ffe390;
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--hover); }
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
 }
-#copy{
+#copy {
   color: darkgrey;
+}
+
+.previous11 {
+  margin-bottom: 4rem;
 }
