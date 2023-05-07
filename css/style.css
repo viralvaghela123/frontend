@@ -35,6 +35,7 @@ header {
   /* font-family: "Fjalla One", sans-serif; */
   font-family: nobel, sans-serif;
 }
+
 .nav-item {
   margin-left: 2vw;
 }
@@ -186,7 +187,7 @@ button:hover {
   transform: scale(1.2);
 }
 
-.sptlgt{
+.sptlgt {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,11 +205,11 @@ button:hover {
   margin: 0 10vw 0 10vw;
 }
 
-.spotlight img{
+.spotlight img {
   border-radius: 20px;
 }
 
-.container h2{
+.container h2 {
   text-align: center;
 }
 
@@ -360,7 +361,7 @@ footer a:hover {
 }
 
 .spotlight img {
-  border-radius: 20px;
+  border-radius: 20px;
 }
 
 @media screen and (max-width:600px){
@@ -442,6 +443,5 @@ footer a:hover {
   }
   .footer .main-office-gmap{
     position: relative;
-  }
- }
-
+  }
+}
