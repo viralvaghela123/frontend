@@ -186,7 +186,7 @@ button:hover {
   transform: scale(1.2);
 }
 
-.sptlgt{
+.sptlgt {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,11 +204,11 @@ button:hover {
   margin: 0 10vw 0 10vw;
 }
 
-.spotlight img{
+.spotlight img {
   border-radius: 20px;
 }
 
-.container h2{
+.container h2 {
   text-align: center;
 }
 
@@ -339,4 +339,16 @@ footer a:hover {
   height: 80vh;
   width: 100vw;
   display: inline;
+}
+
+@media screen and (max-width: 1400px) {
+  .spotlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .spotlight img {
+    margin-bottom: 2rem;
+  }
 }
