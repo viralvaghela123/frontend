@@ -1,8 +1,9 @@
-@import url(../css/style.css);
+@import url(./style.css);
+
 /* main{
   /* background: linear-gradient(to bottom, lightblue, white); */
-
-/* } */
+  
+/* } */ 
 
 #title {
   font-family: "Fjalla One", sans-serif;
@@ -21,12 +22,72 @@
   /* background-color: rgb(56, 49, 49); */
 
 }
-
 /* .img-background{
   width: 100%;
   height: 30rem;
 } */
 
+h2,h1{
+  text-align: center;
+}
+
+
+.overGif1{
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.overGif2{
+  position: relative;
+  color: white;
+  z-index: 2;
+  top: 42vh;
+}
+.gifDrone{
+ width: 100vw;
+ height: 70vh;
+ position: relative;
+ top: -20vh;
+}
+
+.introContent{
+  display: inline-block;
+  width: 80vw;
+  position: relative;
+  left: 10vw;
+  font-size: larger;
+  position: relative;
+  top: -10vh;
+}
+
+.keyHighlight{
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 4vh;
+}
+
+.card-group{
+  width: 80vw;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+  /* justify-content: space-around; */
+}
+
+.card{
+  display: inline-block;
+  width: 25vw;
+  position: relative;
+  height: 40vh;
+}
+
+.card :hover{
+  transform: scale(1.05);
+  position: relative;
+  z-index: 5;
+}
 #first {
   padding: 20px;
   text-align: center;
@@ -39,12 +100,12 @@
   text-align: center;
 }
 
-#col-1 {
-  text-align: left;
+#col-1{
+    text-align: left;
 }
 
-#col-2 {
-  text-align: center;
+#col-2{
+    text-align: center;
 }
 
 .schedule {
@@ -53,96 +114,104 @@
   text-align: center;
 }
 
-#sponsors {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.indias-biggest-drone {
+.indias-biggest-drone{
   font-size: 3rem;
-  color: white;
+  color: white ;
 }
-
-.indias-biggest-drone1 {
+.indias-biggest-drone1{
   font-size: 8rem;
   box-shadow: 0.5rem 0.5rem 1rem 0.5rem gray;
   border-radius: 4rem;
   font-family: 'Kanit', sans-serif;
-  color: white;
+  color: white ;
 }
-
-.content {
+.content{
   margin-top: 5rem;
-  color: white;
+  color: white  ;
   padding-left: 7rem;
   padding-right: 7rem;
   font-size: 1.3rem;
 }
-
-.para12 {
+.para12
+{
   font-weight: 900;
 }
-
-.join1 {
+.join1{
   display: flex;
   justify-content: center;
   margin-top: 2rem;
   align-items: center;
 }
-
-.join-a {
+.join-a{
   /* text-decoration: none; */
   color: red;
 }
 
-.venue1 {
+.droneRacing {
+  display: inline-flex;
+  height: 30vh;
+  width: 40vw;
+  margin-left: 8vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.placementDrive{
+  display: inline-flex;
+  height: 30vh;
+  width: 40vw;
+  margin-left: 2vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.venue1{
   background-image: url(https://media.istockphoto.com/id/1412583447/vector/beautiful-starry-sky-background-illustration.jpg?s=612x612&w=0&k=20&c=1-FAYSZUNJLuxO2w45lvI3dk2qONdCWsGzklgNu2wiw=);
+  color: white  ;
+  width: 20vw;
+}
+#col-1{
   color: white;
 }
-
-#col-1 {
+#col-2{
   color: white;
 }
-
-#col-2 {
-  color: white;
-}
-
-.main123 {
+.main123{
   display: flex;
   justify-content: space-evenly;
-
+  
 }
-
-.heading {
-  display: flex;
+.heading{
+  display:flex ;
   justify-content: center;
   align-items: center;
-
+  
 }
-
-.heading-h2 {
-  font-size: 3rem;
+.heading-h2{
+  font-size:3rem;
   font-family: 'Kanit', sans-serif;
 }
-
-.venue3 {
+.venue3{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.venue311 {
+.venue311{
   width: 20rem;
-
+  
 }
-
-.venue789 {
+.venue789{
   font-size: 2.5rem;
 }
-
 
 @media screen and (max-width:600px) {
   body {
@@ -203,6 +272,23 @@
   div.venue3{
     margin:auto;
     position: relative;
-    left: -10vw;
+    left:-20vw;
+  }
+
+  .card-group{
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .venue1{
+    position: relative;
+    left: 20vw;
+  }
+
+  .card-group .card2{
+    width: 70vw;
+  }
+  .card-group .card1{
+    width: 70vw;
   }
 }
