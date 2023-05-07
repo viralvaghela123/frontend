@@ -31,7 +31,7 @@ header {
 }
 
 .navbar-nav {
-  margin-left: 30vw;
+  margin-left: 28vw;
   /* font-family: "Fjalla One", sans-serif; */
   font-family: nobel, sans-serif;
 }
@@ -141,20 +141,19 @@ button:hover {
 }
 
 .industrial {
-  position: relative;
-  top: 20vh;
-  bottom: 20vh;
+  margin-top: 10rem;
+
   display: inline-flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
   background-image: url("./../img/d29b5bec682f9f0e608fd63c999609a2.gif");
-  background-position: 130% 290%;
+  background-position: 100% 55%;
   background-repeat: no-repeat;
   background-size: 100%;
   color: whitesmoke;
-  padding-block-start: 7rem;
+  /* padding-block-start: 5rem; */
 }
 
 .industrial-solutions {
@@ -185,6 +184,32 @@ button:hover {
 
 .card:hover {
   transform: scale(1.2);
+}
+
+.sptlgt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0rem 0rem 1rem 0.5rem lightblue;
+  border-radius: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin-bottom: 6rem;
+}
+
+.spotlight {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  margin: 0 10vw 0 10vw;
+}
+
+.spotlight img{
+  border-radius: 20px;
+}
+
+.container h2{
+  text-align: center;
 }
 
 /* -------------------- FOOTER ------------------- */
@@ -278,6 +303,7 @@ footer a:hover {
   font-family: "Bruno Ace SC";
   font-weight: 200;
 }
+
 .join-btn {
   height: 2.5rem;
   width: 6.5rem;
