@@ -53,6 +53,115 @@ header {
   height: 60vh;
 }
 
+button:hover {
+  transform: scale(1.1);
+}
+
+.heading {
+  font-size: 25px;
+  position: relative;
+  top: 5vh;
+}
+
+.services {
+  display: inline-flex;
+  height: 40vh;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;
+  top: 10vh;
+}
+.services img {
+  height: 20vh;
+}
+
+.serbut {
+  height: 5vh;
+  width: 10vw;
+  border-radius: 10px;
+  border: 3px solid rgb(102, 102, 168);
+  background-color: white;
+  position: relative;
+  top: -3vh;
+  left: 18%;
+}
+
+.serbut a {
+  text-decoration: none;
+}
+
+.industrial {
+  margin-top: 10rem;
+
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../img/d29b5bec682f9f0e608fd63c999609a2.gif");
+  background-position: 100% 55%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: whitesmoke;
+  /* padding-block-start: 5rem; */
+}
+
+.industrial-solutions {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ind-item p {
+  text-align: center;
+}
+
+.left-industrial-inner {
+  margin: 3rem;
+}
+.fa:hover {
+  transform: scale(2);
+}
+.ind-item p {
+  margin-top: 2rem;
+}
+.ind-item i {
+  position: relative;
+  left: 2vw;
+  transform: scale(2);
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.sptlgt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0rem 0rem 1rem 0.5rem lightblue;
+  border-radius: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin-bottom: 6rem;
+}
+
+.spotlight {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  margin: 0 10vw 0 10vw;
+}
+
+.spotlight img{
+  border-radius: 20px;
+}
+
+.container h2{
+  text-align: center;
+}
+
 .item,
 .carimg {
   height: 100% !important;
