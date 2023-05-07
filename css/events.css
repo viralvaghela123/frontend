@@ -1,9 +1,8 @@
-@import url(./style.css);
-
+@import url(../css/style.css);
 /* main{
   /* background: linear-gradient(to bottom, lightblue, white); */
-  
-/* } */ 
+
+/* } */
 
 #title {
   font-family: "Fjalla One", sans-serif;
@@ -22,6 +21,7 @@
   /* background-color: rgb(56, 49, 49); */
 
 }
+
 /* .img-background{
   width: 100%;
   height: 30rem;
@@ -39,12 +39,12 @@
   text-align: center;
 }
 
-#col-1{
-    text-align: left;
+#col-1 {
+  text-align: left;
 }
 
-#col-2{
-    text-align: center;
+#col-2 {
+  text-align: center;
 }
 
 .schedule {
@@ -53,78 +53,155 @@
   text-align: center;
 }
 
-#sponsors{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.indias-biggest-drone{
+
+.indias-biggest-drone {
   font-size: 3rem;
-  color: white ;
+  color: white;
 }
-.indias-biggest-drone1{
+
+.indias-biggest-drone1 {
   font-size: 8rem;
   box-shadow: 0.5rem 0.5rem 1rem 0.5rem gray;
   border-radius: 4rem;
   font-family: 'Kanit', sans-serif;
-  color: white ;
+  color: white;
 }
-.content{
+
+.content {
   margin-top: 5rem;
-  color: white  ;
+  color: white;
   padding-left: 7rem;
   padding-right: 7rem;
   font-size: 1.3rem;
 }
-.para12
-{
+
+.para12 {
   font-weight: 900;
 }
-.join1{
+
+.join1 {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
   align-items: center;
 }
-.join-a{
+
+.join-a {
   /* text-decoration: none; */
   color: red;
 }
-.venue1{
+
+.venue1 {
   background-image: url(https://media.istockphoto.com/id/1412583447/vector/beautiful-starry-sky-background-illustration.jpg?s=612x612&w=0&k=20&c=1-FAYSZUNJLuxO2w45lvI3dk2qONdCWsGzklgNu2wiw=);
-  color: white  ;
-}
-#col-1{
   color: white;
 }
-#col-2{
+
+#col-1 {
   color: white;
 }
-.main123{
+
+#col-2 {
+  color: white;
+}
+
+.main123 {
   display: flex;
   justify-content: space-evenly;
-  
+
 }
-.heading{
-  display:flex ;
+
+.heading {
+  display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
-.heading-h2{
-  font-size:3rem;
+
+.heading-h2 {
+  font-size: 3rem;
   font-family: 'Kanit', sans-serif;
 }
-.venue3{
+
+.venue3 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.venue311{
+
+.venue311 {
   width: 20rem;
-  
+
 }
-.venue789{
+
+.venue789 {
   font-size: 2.5rem;
+}
+
+@media screen and (max-width:600px) {
+  body {
+    align-items: center;
+    overflow-x: hidden !important;
+  }
+
+  h2.overGif1 {
+    margin-top: 0 !important;
+    overflow-x: hidden;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .DronaGIF {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img#GIF-Drone {
+    border-radius: 20px;
+    overflow-x: hidden;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: centerss;
+  }
+
+  h1.overGIFTextd {
+    text-align: center;
+  }
+
+  h2#droneBottomText {
+    margin-bottom: 20px;
+  }
+  p.para-text-era{
+    text-align: center;
+    font-size:larger;
+    padding: 20px;
+  }
+  .onResponseTextCentre,
+  .keyHighlight{
+    text-align: center;
+  }
+  .card{
+    width: 70%;
+    font-size:larger;
+  }
+  div.main123{
+    display: inline-block;
+  }
+  div.venue3{
+    margin:auto;
+    position: relative;
+    left: -10vw;
+  }
 }
