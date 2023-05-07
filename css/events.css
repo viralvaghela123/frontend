@@ -128,3 +128,67 @@
 .venue789{
   font-size: 2.5rem;
 }
+
+
+@media screen and (max-width:600px) {
+  body {
+    align-items: center;
+    overflow-x: hidden !important;
+  }
+
+  h2.overGif1 {
+    margin-top: 0 !important;
+    overflow-x: hidden;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .DronaGIF {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img#GIF-Drone {
+    border-radius: 20px;
+    overflow-x: hidden;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: centerss;
+  }
+
+  h1.overGIFTextd {
+    text-align: center;
+  }
+
+  h2#droneBottomText {
+    margin-bottom: 20px;
+  }
+  p.para-text-era{
+    text-align: center;
+    font-size:larger;
+    padding: 20px;
+  }
+  .onResponseTextCentre,
+  .keyHighlight{
+    text-align: center;
+  }
+  .card{
+    width: 70%;
+    font-size:larger;
+  }
+  div.main123{
+    display: inline-block;
+  }
+  div.venue3{
+    margin:auto;
+    position: relative;
+    left: -10vw;
+  }
+}
