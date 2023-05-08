@@ -35,7 +35,6 @@ header {
   /* font-family: "Fjalla One", sans-serif; */
   font-family: nobel, sans-serif;
 }
-
 .nav-item {
   margin-left: 2vw;
 }
@@ -48,6 +47,10 @@ header {
   background-color: #ffc107;
   border: none;
   color: black;
+}
+
+.indias-biggest-drone12 h2{
+  text-align: center;
 }
 
 .carousel-inner {
@@ -187,7 +190,7 @@ button:hover {
   transform: scale(1.2);
 }
 
-.sptlgt {
+.sptlgt{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,11 +208,11 @@ button:hover {
   margin: 0 10vw 0 10vw;
 }
 
-.spotlight img {
+.spotlight img{
   border-radius: 20px;
 }
 
-.container h2 {
+.container h2{
   text-align: center;
 }
 
@@ -361,8 +364,10 @@ footer a:hover {
 }
 
 .spotlight img {
-  border-radius: 20px;
+  border-radius: 20px;
 }
+
+
 
 @media screen and (max-width:600px){
   body{
@@ -379,6 +384,8 @@ footer a:hover {
     width: 100%;
     padding: 6px;
   }
+
+  
   div.indias-biggest-drone12{
     width: 100%;
   }
@@ -396,6 +403,7 @@ footer a:hover {
     margin-top: 3%;
     margin-left: 16%;
     font-size: small;
+    box-shadow: 0.5rem 0.5rem 1rem 0.5rem gray;
   }
   button.serbut{
     width: 50%;
@@ -415,12 +423,21 @@ footer a:hover {
     padding-top: 2px;
   }
 
+  /* .industrial-solutions background-image{
+    height: 100%;
+  } */
+
   .industrial-solutions{
-    height: 60vh;
+    height: 60vh;;
   }
   .spotlight{
     display: flex;
     flex-direction: column;
+  }
+  #get-in-touch:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: yellow;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -443,5 +460,6 @@ footer a:hover {
   }
   .footer .main-office-gmap{
     position: relative;
-  }
-}
+  }
+ }
+
