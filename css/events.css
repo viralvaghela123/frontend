@@ -9,6 +9,18 @@
   font-family: "Fjalla One", sans-serif;
   text-align: center;
 }
+.gif1{
+  background: url(../img/event.mp4);
+}
+
+#droneImgGif{
+  display: inline-block;
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  top: -10vh;
+  background-image: url(../img/event.gif);
+}
 
 #event {
   padding-top: 50px;
@@ -56,9 +68,10 @@ h2,h1{
   width: 80vw;
   position: relative;
   left: 10vw;
+
   font-size: larger;
   position: relative;
-  top: -10vh;
+  top:-10vh;
 }
 
 .keyHighlight{
@@ -217,7 +230,6 @@ h2,h1{
 .venue789{
   font-size: 2.5rem;
 }
-
 @media screen and (max-width:600px) {
   body {
     align-items: center;
@@ -301,5 +313,17 @@ h2,h1{
   }
   .card-group .card1{
     width: 70vw;
+  }
+  .droneRacing{
+    height: 40vh;
+  }
+  .placementDrive{
+    height: 40vh;
+    position: relative;
+    top: 4vh;
+  }
+  #droneImgGif{
+    background-image: url('./../img/mobileevent.gif');
+    background-size: cover;
   }
 }
