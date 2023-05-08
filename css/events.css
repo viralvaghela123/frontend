@@ -65,6 +65,7 @@ h2,h1{
   position: relative;
   margin-top: 10vh;
   margin-bottom: 4vh;
+  left: -3vw;
 }
 
 .card-group{
@@ -72,7 +73,7 @@ h2,h1{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10vw;
+  margin-left: 5vw;
   /* justify-content: space-around; */
 }
 
@@ -216,8 +217,14 @@ h2,h1{
 @media screen and (max-width:600px) {
   body {
     align-items: center;
+    width: 100vw;
     overflow-x: hidden !important;
   }
+
+  header{
+    width: 100vw;
+  }
+
 
   h2.overGif1 {
     margin-top: 0 !important;
@@ -272,7 +279,7 @@ h2,h1{
   div.venue3{
     margin:auto;
     position: relative;
-    left:-20vw;
+    left:-16vw;
   }
 
   .card-group{
@@ -282,7 +289,7 @@ h2,h1{
 
   .venue1{
     position: relative;
-    left: 20vw;
+    left: 10vw;
   }
 
   .card-group .card2{
