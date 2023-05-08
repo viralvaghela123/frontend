@@ -200,7 +200,12 @@ header {
   }
 }
 
+
 @media (max-width: 767px) {
+  
+  h2{
+    color: white !important;
+  }
   .timeline {
     width: 100%;
   }
@@ -229,4 +234,8 @@ header {
     left: 50px;
     right: inherit;
   }
+  img{
+    width: 100%;
+  }
 }
+
